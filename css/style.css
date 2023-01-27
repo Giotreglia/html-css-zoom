@@ -58,17 +58,17 @@ main {
 
 .main_container {
     flex-wrap: wrap;
+    justify-content: center;
     height: 100%;
     width: 100%;
-    padding: 30px;
-    overflow-y: scroll;
+    padding: 10px;
+    overflow-y: auto;
     overflow-x: hidden;
-    margin: auto;
 }
 
 .card {
-    height: 150px;
-    width: 250px;
+    height: 200px;
+    width: 300px;
     background-size: cover;
     position: relative;
     margin: 5px;
